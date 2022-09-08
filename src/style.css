@@ -1,0 +1,59 @@
+.card-largura{
+    max-width: 18rem;
+}
+
+.imagem-caroussel{
+    height: 480px;
+    object-fit:cover;
+    
+  
+}
+.card-img-top{
+    transition: all 0.3s ease-out;
+    float: left;
+    box-sizing: border-box;
+}
+
+.fonte-titulo{
+    font-family:'Pacifico', cursive;
+}
+
+.cor-especial{
+    color: darkred!important;
+}
+.cor-letras{
+    text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87
+}
+.borda-cor-especial{
+    border-color: blue;
+}
+
+.card-posicao-imagem{
+    object-fit: cover;
+    height: 250px;
+    
+}
+
+.cor-valor{
+    color: black;
+}
+
+p.tuncar-3l{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.img-container{
+    overflow: hidden;
+}
+ 
+.img-container img{
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.img-container:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
