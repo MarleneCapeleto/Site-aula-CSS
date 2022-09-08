@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Power Nutrição</title>
+  <link rel="stylesheet" type="text/css" href="src/style.css">
+  <link href="https://font.googleapis.com/css?family= Pacifico" rel="Stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+   integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+   crossorigin="anonymous">
+ 
+</head>
+
+<body>
+  <header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      
+      <a class="navbar-brand fonte-titulo cor-especial cor-letras" href="#">Power Nutrição</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="">
+          <button class="btn cor-especial my-2 my-sm-0 fonte-titulo" type="submit">Buscar</button>
+        </form>
+
+        <ul class="navbar-nav">
+          
+          <li class="nav-item">
+            <a class="nav-link cor-especial fonte-titulo" href="home.html">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link cor-especial fonte-titulo" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" href="#">Produtos<span class="sr-only"></span>
+              
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item cor-especial" href="carrinho.html">Whey</a>
+              <a class="dropdown-item cor-especial" href="Creatina.html">Creatina</a>
+              <a class="dropdown-item cor-especial" href="barracereal1.html">Barra Protein</a>
+              <a class="dropdown-item cor-especial" href="combo.html">Combo</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link cor-especial fonte-titulo" data-toggle="modal" data-target="#modal-contato" href="#">Entre</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">
+                <svg class="bi" white="24" hidden="24" fill="currentColor">
+                  <use xlink:href="/bi.svg#cart" ></use>
+                </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <!--inicio do carousel-->
+  <main>
+    <div id="carouselExampleIndicators" class="carousel slide" data-interval="3000" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100 imagem-caroussel" src="./src/img/fit-1.jpg" alt="">
+          <div class="carousel-caption d-none d-md-block h-50">
+            <h1 class="fonte-titulo display-4"></h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 imagem-caroussel" src="./src/img/fit-2.jpg" width="670" height="203" alt="">
+          <div class="carousel-caption d-none d-md-block h-50">
+            <h1 class="fonte-titulo display-4"></h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 imagem-caroussel" src="./src/img/fit-3.jpg" alt="">
+          <div class="carousel-caption d-none d-md-block h-50">
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev imagem-caroussel" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+    <!--fim do carousel-->
+
+  <!--<title class="titulo"--> 
+    <h1 class="text-center fonte-titulo cor-especial pt-5 ">CHEGA DE DESCULPAS!</h1>
+    <p class="text-center fonte-titulo text-secondary pb-5"><mark><marquee behavior="alternate"><b>Faça o seu melhor a partir de agora e potencialize seus resultados com os melhores suplementos do Brasil.</b></marquee></mark></p>
+    <!--fim do titulo-->
+
+      <!--inicio dos card-->
+        <div container>
+          <div class="row justify-content-center ">
+            <!--favoritar-->
+            <div class="card borda-cor-especial  border-0 card-largura p-0 m-4 col-md-2 img-container">
+              <!--fim favoritar-->
+              <img class="card-img-top card-posicao-imagem " src="./src/img/whey-1.jpg"width="50" height="30" alt="">
+              <div class="card-body">
+                <p class="card-text tuncar-3l">100% Whey Refil Chocolate 900G </p>
+                <div class="card-header">
+                <center><b>R$ 149,90</b></center>
+                </div>
+                <div class="card-footer">
+                  <a href="" class="btn btn-primary mt-2 d-block">Ver item</a>
+                  <small class="text-success"> 6 unidades em estoque</small>
+                </div>
+              </div>
+            </div>
+
+              <div class="card borda-cor-especial border-0 card-largura p-0 m-4 col-md-2 img-container">
+                <img class="card-img-top card-posicao-imagem" src="./src/img/top vegan.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text tuncar-3l">Top Vegan Protein 600g - Café com Leite</p>
+                  <div class="card-header">
+                    <center><b>R$ 148,90</b> </center>
+                  </div>
+                  <div class="card-footer">
+                    <a href="" class="btn btn-primary mt-2 d-block">Ver item</a>
+                    <small class="text-success">1 unidades em estoque</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card borda-cor-especial  border-0 card-largura p-0  m-4 col-md-2 img-container">
+                <img class="card-img-top card-posicao-imagem" src="./src/img/creatina.jpg">
+                <div class="card-body">
+                  <p class="card-text tuncar-3l">
+                    Creatine 120 Caps - MonoHidatada</p>
+                  <div class="card-header">
+                    <center><b>R$ 119,00</b></center>
+                    
+                  </div>
+                  <div class="card-footer">
+                    <a href="" class="btn btn-primary mt-2 d-block">Ver item</a>
+                    <small class="text-success">2 unidades em estoque</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card borda-cor-especial border-0 card-largura p-0 m-4 col-md-2 img-container">
+                <img class="card-img-top card-posicao-imagem" src="./src/img/barra de cereal .jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text tuncar-3l">
+                    Power Protein Bar 41G - Dark chocolate truffle</p>
+                  <div class="card-header">
+                    <center><b>R$ 80,90</b></center>
+                  </div>
+                  <div class="card-footer">
+                    <a href="" class="btn btn-primary mt-2 d-block">Ver item</a>
+                    <small class="text-success">5 unidades em estoque</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card borda-cor-especial border-0 card-largura p-0 m-4 col-md-2 img-container">
+                <img class="card-img-top card-posicao-imagem" src="./src/img/pré-treino.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text tuncar-3l">
+                    Combo Frente
+                    Horus Elite Team Max - Max TitaniumBlue Ice 300g + Camisa M</p>
+                  <div class="card-header">
+                    <center><b>R$ 190,00</b></center>
+                  </div>
+                  <div class="card-footer">
+                    <a href="" class="btn btn-primary mt-2 d-block">Ver item</a>
+                    <small class="text-success">5 unidades em estoque</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card borda-cor-especial border-0 card-largura p-0 m-4 col-md-2 img-container">
+                <img class="card-img-top card-posicao-imagem" src="./src/img/whwy femenuna.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text tuncar-3l">Top Whey 3W + Sabor 900G - Max Titanium femini</p>
+                  <div class="card-header">
+                    <center><b>R$ 157,70</b></center>
+                  </div>
+                  <div class="card-footer">
+                    <a href="" class="btn btn-primary mt-2 d-block">Ver item</a>
+                    <small class="text-success">5 unidades em estoque</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card borda-cor-especial  border-0 card-largura p-0 m-4 col-md-2 img-container">
+                <img class="card-img-top card-posicao-imagem" src="./src/img/whey morango.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text tuncar-3l">
+                    Top Whey 3W + Sabor 900G - Max Titanium Iogurte grego morango</p>
+                  <div class="card-header">
+                    <center><b> R$ 119,90</b></center>
+                  </div>
+                  <div class="card-footer">
+                    
+                    <a href="" class="btn btn-primary mt-2 d-block">Ver item</a>
+                    <small class="text-success">5 unidades em estoque</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card borda-cor-especial  border-0 card-largura p-0 m-4 col-md-2 img-container">
+                <img class="card-img-top card-posicao-imagem" src="./src/img/whey mass titanium.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text tuncar-3l">
+                  Top Whey 3W + Sabor 900G - Max Titanium Zero Lactose</p>
+                  <div class="card-header">
+                    <center><b> R$ 190,00</b></center>
+                  </div>
+                  <div class="card-footer">
+                    <a href="" class="btn btn-primary mt-2 d-block">Ver item</a>
+                    <small class="text-success">5 unidades em estoque</small>
+                  </div>
+                  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                </div>
+              </div>
+          </div>
+        </div>
+        <!--fim dos card-->
+      
+  </main>
+
+        <!--Depoimentos-->
+        <h6 class="container titulo-depoimentos">
+        <b class="cor-especial pt-5 pb-5 fonte-titulo"><u>Qual é a sua meta? </u></b>
+        </h6>
+        <div class="container">
+          <div class="row">
+               <div class="card-group border-0">
+                <div class="card ">
+                  <div class="card-body">
+                    <div class="vtex-wordpress-integration-2-x-categoryBlockFlexItem vtex-wordpress-integration-2-x-categoryBlockFlexItem--homeDiscount mv3 w-33-l ph2 w-100-s img-container">
+                      <div class="vtex-wordpress-integration-2-x-teaserContainer vtex-wordpress-integration-2-x-teaserContainer--homeDiscount">
+                        <div class="vtex-card card w-100 b2 br2 bg-base c-on-base " style="box-shadow: rgba(61, 62, 64, 0.2) 0px 3px 9px 0px;">
+                          <div class="tc-m db relative"><img class="vtex-wordpress-integration-2-x-teaserImage vtex-wordpress-integration-2-x-teaserImage--homeDiscount w-100" src="./src/img/Dieta-para-emagrecer.jpg" alt="Retenção de Líquidos">
+                      <div class="vtex-wordpress-integration-2-x-teaserGradientOverlay vtex-wordpress-integration-2-x-teaserGradientOverlay--homeDiscount absolute absolute--fill" style="background: linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.6) 100%);">
+                        <div class="vtex-wordpress-integration-2-x-teaserTextOverlay vtex-wordpress-integration-2-x-teaserTextOverlay--homeDiscount absolute tl" style="bottom: 15%; left: 5%;"><div class="vtex-wordpress-integration-2-x-teaserTextOverlayTitle vtex-wordpress-integration-2-x-teaserTextOverlayTitle--homeDiscount t-heading-5 white fw5 mb3">
+                          <a class="white no-underline ">Dieta para emagrecer – qual whey é indicado?</a></div></div></div></div><div class="vtex-wordpress-integration-2-x-titleAndExcerptContainer vtex-wordpress-integration-2-x-titleAndExcerptContainer--homeDiscount flex-column">
+                            <div class=" vtex-wordpress-integration-2-x-teaserBody vtex-wordpress-integration-2-x-teaserBody--homeDiscount ph6 pb6"><p>Dieta para emagrecer pode ter whey? Dieta para emagrecer e Whey O Whey Protein é um suplemento alimentar à base de proteína do soro do leite, que é extraída através da fabricação de laticínios. A suplementação é indicada usualmente para indivíduos que buscam hipertrofia, mas o Whey tem diversas indicações, desde idosos até pessoas com […]</p>
+                    </div></div></div></div></div>
+                </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-body">
+                    <div class="vtex-wordpress-integration-2-x-categoryBlockFlexItem vtex-wordpress-integration-2-x-categoryBlockFlexItem--homeDiscount mv3 w-33-l ph2 w-100-s img-container">
+                      <div class="vtex-wordpress-integration-2-x-teaserContainer vtex-wordpress-integration-2-x-teaserContainer--homeDiscount">
+                        <div class="vtex-card card w-100 b2 br2 bg-base c-on-base " style="box-shadow: rgba(61, 62, 64, 0.2) 0px 3px 9px 0px;">
+                          <div class="tc-m db relative"><img class="vtex-wordpress-integration-2-x-teaserImage vtex-wordpress-integration-2-x-teaserImage--homeDiscount w-100" src="./src/img/retenão de liquido.jpg" alt="Retenção de Líquidos">
+                            <div class="vtex-wordpress-integration-2-x-teaserGradientOverlay vtex-wordpress-integration-2-x-teaserGradientOverlay--homeDiscount absolute absolute--fill" style="background: linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.6) 100%);">
+                              <div class="vtex-wordpress-integration-2-x-teaserTextOverlay vtex-wordpress-integration-2-x-teaserTextOverlay--homeDiscount absolute tl" style="bottom: 15%; left: 5%;">
+                                <div class="vtex-wordpress-integration-2-x-teaserTextOverlayTitle vtex-wordpress-integration-2-x-teaserTextOverlayTitle--homeDiscount t-heading-5 white fw5 mb3">
+                                  <a class="white no-underline">Retenção de líquidos e creatina</a></div></div></div></div><div class="vtex-wordpress-integration-2-x-titleAndExcerptContainer vtex-wordpress-integration-2-x-titleAndExcerptContainer--homeDiscount flex-column">
+                                    <div class="vtex-wordpress-integration-2-x-teaserBody vtex-wordpress-integration-2-x-teaserBody--homeDiscount ph6 pb6"><p>Retenção de líquidos, pode ter alguma relação com a suplementação de creatina? A creatina é um dos suplementos mais pesquisados e seguros que existem, sua aplicabilidade também é grande. Apesar de ser mais popular no meio esportivo, a creatina tem diversas indicações clínicas no auxílio ao tratamento de condições […]</p>
+                    </div></div></div></div></div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <div class="vtex-wordpress-integration-2-x-categoryBlockFlexItem vtex-wordpress-integration-2-x-categoryBlockFlexItem--homeDiscount mv3 w-33-l ph2 w-100-s img-container"><div class="vtex-wordpress-integration-2-x-teaserContainer vtex-wordpress-integration-2-x-teaserContainer--homeDiscount"><div class="vtex-card card w-100 b2 br2 bg-base c-on-base " style="box-shadow: rgba(61, 62, 64, 0.2) 0px 3px 9px 0px;"><div class="tc-m db relative"><img class="vtex-wordpress-integration-2-x-teaserImage vtex-wordpress-integration-2-x-teaserImage--homeDiscount w-100" src="./src/img/frutas que ajudam na massa mucular.png" alt="Retenção de Líquidos"><div class="vtex-wordpress-integration-2-x-teaserGradientOverlay vtex-wordpress-integration-2-x-teaserGradientOverlay--homeDiscount absolute absolute--fill" style="background: linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.6) 100%);"><div class="vtex-wordpress-integration-2-x-teaserTextOverlay vtex-wordpress-integration-2-x-teaserTextOverlay--homeDiscount absolute tl" style="bottom: 15%; left: 5%;"><div class="vtex-wordpress-integration-2-x-teaserTextOverlayTitle vtex-wordpress-integration-2-x-teaserTextOverlayTitle--homeDiscount t-heading-5 white fw5 mb3"><a class="white no-underline">Vitaminas ajudam no ganho de massa muscular?</a></div></div></div></div><div class="vtex-wordpress-integration-2-x-titleAndExcerptContainer vtex-wordpress-integration-2-x-titleAndExcerptContainer--homeDiscount flex-column"><div class="vtex-wordpress-integration-2-x-teaserBody vtex-wordpress-integration-2-x-teaserBody--homeDiscount ph6 pb6"><p>Vitaminas são muito importantes para o organismo e como são para o processo de hipertrofia? Hipertrofia, o que é essencial? Quando pensamos no processo de hipertrofia, de forma intuitiva associamos ao treino de musculação e uma dieta rica em proteínas e carboidratos, entretanto, isso não é tudo […]</p>
+                    </div></div></div></div></div>
+                </div>
+                </div>
+
+
+                </div>
+              </div>
+          </div>
+        </div>
+    
+
+        
+      <footer class="bg-secondary p-3">
+        <p class="text-light m-0 text-center">Desenvolvido por Marlene Capeleto</p>
+        <p class="text-light m-0 text-center">Telefone:(49) 3321-7060</p>
+        <p class="text-light m-0 text-center">@powesuplementos</p>
+      </footer>
+  
+  
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+            <div class="modal-body">
+              <form>
+                  <div class="form-group">
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Endereço de e-mail</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Digite sua senha</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                </div>
+              </form>
+              Não tenho acesso.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>    
+    
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <script src=""></script>
+
+</body>
+</html>
